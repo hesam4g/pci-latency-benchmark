@@ -29,10 +29,10 @@
  *	unused for now
  * READ_DATA: addr = BAR2 + 1
  *	this register can only be read. Each time it's read, the device
- *	read a byte from his input and return it.
+ *	reads a byte from its input and return it.
  * WRITE_DATA: addr = BAR2 + 2
  *	this register can only be written. Each time it's written, the device
- *	write the byte on his output.
+ *	writes the byte on its output.
  * 
  */
 
